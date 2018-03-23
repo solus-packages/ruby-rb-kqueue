@@ -1,0 +1,61 @@
+<PISI>
+    <Source>
+        <Name>ruby-rb-kqueue</Name>
+        <Packager>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - rb-kqueue</Summary>
+        <Description xml:lang="en">A Ruby wrapper for BSD&apos;s kqueue, using FFI.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby-rb-kqueue</Name>
+        <Summary xml:lang="en">RubyGem - rb-kqueue</Summary>
+        <Description xml:lang="en">A Ruby wrapper for BSD&apos;s kqueue, using FFI.
+</Description>
+        <PartOf>programming.ruby</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/.gitignore</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/.rspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/.yardopts</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/Gemfile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/MIT-LICENSE</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/VERSION</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/lib/rb-kqueue.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/lib/rb-kqueue/event.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/lib/rb-kqueue/native.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/lib/rb-kqueue/native/flags.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/lib/rb-kqueue/queue.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/lib/rb-kqueue/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/lib/rb-kqueue/watcher.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/lib/rb-kqueue/watcher/file.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/lib/rb-kqueue/watcher/process.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/lib/rb-kqueue/watcher/read_write.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/lib/rb-kqueue/watcher/signal.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/lib/rb-kqueue/watcher/socket_read_write.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/lib/rb-kqueue/watcher/timer.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/rb-kqueue.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/spec/kqueue_queue_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/rb-kqueue-0.2.5/spec/spec_helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/rb-kqueue-0.2.5.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-23</Date>
+            <Version>0.2.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>

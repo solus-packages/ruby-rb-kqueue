@@ -1,0 +1,16 @@
+name       : ruby-rb-kqueue
+version    : 0.2.5
+release    : 1
+source     :
+    - https://rubygems.org/downloads/rb-kqueue-0.2.5.gem : 3c33aca20c6e12570298d1519da10606359bc42718876886dc8348a161feb092
+license    : MIT
+component  : programming.ruby
+summary    : RubyGem - rb-kqueue
+description: |
+    A Ruby wrapper for BSD's kqueue, using FFI.
+builddeps  :
+    - pkgconfig(ruby-2.3)
+rundeps    :
+    - ruby-ffi
+install    : |
+    %gem_install
